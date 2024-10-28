@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --dark-color:#1A1A29;
+}
+@import '~font-awesome/css/font-awesome.css';
