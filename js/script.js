@@ -16,6 +16,10 @@ function OpenMnue() {
 let crud_modal = document.getElementById("crud-modal") 
 function openCardsTasks() {
     crud_modal.classList.toggle("hidden");
-    window.body.style.background="red"
+document.getElementsByTagName("nav").classList=("blur-sm");
     
+}
+function closeCardsTasks(){
+    crud_modal.classList.toggle("hidden");
+
 }
